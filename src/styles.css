@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400 !important;
+    font-style: normal;
+    font-size: 5em;
+  }
+  
+.px-10 {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+}

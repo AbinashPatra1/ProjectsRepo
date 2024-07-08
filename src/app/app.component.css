@@ -1,18 +1,56 @@
-body {
-    background: #121212;
-    color: #ffffff;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .bgm {
-    background: #1e1e1e;
-    border-radius: 8px;
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #ffffff;
-  }
+.bucket {
+  background-color: #010105;
+}
+
+/* .h-navbar {
+  background-color: #08082b;
+} */
+
+.h-header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.h-button {
+  background-color: #08082b;
+  border: none;
+  text-align: center;
+}
+
+/* Card */
+.ad-card {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 10px;
+}
+
+.ad-card .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.ad-card .card-body {
+  padding: 20px;
+}
+
+.ad-card .card-title {
+  margin-bottom: 0;
+}
+
+.ad-card .badge {
+  margin-right: 5px;
+}
+
+.ad-card .btn-outline-primary {
+  border-color: #4267B2;
+  color: #4267B2;
+}
+
+.ad-card .btn-outline-primary:hover {
+  background-color: #4267B2;
+  color: white;
+}
